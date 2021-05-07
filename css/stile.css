@@ -41,6 +41,10 @@ header .menu1
     align-items: flex-end;
 }
 
+.verde
+{
+    color: chartreuse;
+}
 
 .container div span::before
 {
