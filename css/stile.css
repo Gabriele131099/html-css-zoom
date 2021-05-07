@@ -4,6 +4,9 @@
     padding: 0;
     margin: 0;
 }
+body{
+    min-width: 600px;
+}
 header .menu1
 {
     background-color: black;
@@ -38,6 +41,17 @@ header .menu1
     align-items: flex-end;
 }
 
+
+.container div span::before
+{
+    font-family: "Font Awesome 5 Free";
+    content: "\f539";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+ }
+ 
 .container div span
 {
     background-color: rgba(22, 21, 21, 0.3);
@@ -53,15 +67,13 @@ nav{
     background-color: rgb(39, 36, 36);
     color: white;
 }
-.menu
+nav ul
 {
     display: flex;
+    list-style-type: none;
 }
 
-.menu img{
-    filter: invert(1);
-}
-.menu div
+nav ul li
 {
     flex-grow: 1;
     margin: 10px;
@@ -69,6 +81,8 @@ nav{
     justify-content: center;
     display: flex;
     flex-direction: column;
+    list-style-type: none;
+
 }
 
 .lato-dx
@@ -81,7 +95,6 @@ nav{
 
 .menu i
 {
-
    font-size: 30px; 
    padding-bottom: 10px; 
 }
