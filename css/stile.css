@@ -4,14 +4,17 @@
     padding: 0;
     margin: 0;
 }
-header .menu
+header .menu1
 {
-
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
 }
-.menu> span
+.menu1> span
 {
     color: white;
-    background-color: rgba(98, 96, 96 , 0.5)
+    background-color: rgba(98, 96, 96 , 0.5);
+    padding: 5px ;
 }
 .container
 {
@@ -26,7 +29,7 @@ header .menu
 {
     width: 200px;
     height: 120px;
-    margin: 20px 5px 20px 5px;
+    margin: 10px 5px 20px 5px;
     background-image: url(../img/zoom.png);
     border: 1px solid black;
     background-position: center;
@@ -42,10 +45,11 @@ header .menu
     padding: 5px;
 }
 
+
 nav{
     display: flex;
     justify-content: space-between;
-    height: 120px;
+    height: 100px;
     background-color: rgb(39, 36, 36);
     color: white;
 }
@@ -62,17 +66,27 @@ nav{
     flex-grow: 1;
     margin: 10px;
     text-align: center;
+    justify-content: center;
     display: flex;
     flex-direction: column;
 }
 
 .lato-dx
 {
-    width: 100px;
-    border: 1px solid white;
+    color: brown;
+    background-color: rgba(98, 96, 96 , 0.5);
+    padding:10px;
+    line-height: 80px;
 }
 
-.menu 
+.menu i
 {
-     
+
+   font-size: 30px; 
+   padding-bottom: 10px; 
+}
+
+#picolo
+{
+    font-size: 15px;
 }
